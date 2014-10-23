@@ -47,8 +47,10 @@ nazwa_tablicy << 6  #-> [9, 8, 7, 6] - dodawanie elementu na końcu tablicy
 [9, 8, 7] & [5, 6, 7] #-> [7] - elementy wspólne obu tablic
 
 #Pozostałe ( dla przykładu -> nazwa_tablicy[9 ,8 ,7] )
+nazwa_tablicy.length #-> 3 (zwraca ilość elementów tablicy)
 nazwa_tablicy.first #-> 9 (zwraca pierwszą wartość w tablicy)
 nazwa_tablicy.last #-> 7 (zwraca ostatnią wartość w tablicy)
+nazwa_tablicy.empty? #-> false (sprawdza czy tablica zawiera jakiś element)
 nazwa_tablicy.take(2) #-> [9, 8] (zwraca pierwsze n elementów, gdzie n=2)
 nazwa_tablicy.drop(1) #-> [8, 7] (zwraca wszystkie elementy występujące po n, gdzie n=1)
 nazwa_tablicy.push(6) #-> [9, 8, 7, 6] (oznacza to samo co nazwa_tablicy << 6)
